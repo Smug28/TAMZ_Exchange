@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imgStat"
+        android:layout_gravity="center_vertical" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp">
+        <TextView
+                 android:id="@+id/txtStat"
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:layout_marginBottom="1dp"
+                 android:layout_marginTop="1dp"
+                 android:gravity="center_vertical"
+            android:text="EUR" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Kunda"
+            android:id="@+id/txtKod" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="666 Kč"
+            android:id="@+id/txtCena"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+       
+</LinearLayout><!-- From: file:/Users/smuggler/Documents/Android%20Studio%20Projects/NetworkActivity/app/src/main/res/layout/list_entry_layout.xml -->
